@@ -1,0 +1,78 @@
+body {
+  background-image: url('./images/bg_pattern.png');
+  height: 100vh;
+  background-size: 500px;
+  background-color: rgb(155, 138, 106);
+}
+#scroll {
+  position: absolute;
+  top:0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  background-position: center;
+  background-image: url('./images/bg-scroll.png');
+  height: 100vh;
+  max-height: 700px;
+  width: 100vw;
+  max-width: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .title {
+  position: absolute;
+  top: 11%;
+  left: 3rem;
+  right: 0;
+  margin: 0 atuo;
+  text-align: center;
+  font-weight: 800;
+  transform: perspective(300px) skewX(-20deg) rotateX(-20deg);
+}
+.inner {
+  position: absolute;
+  left: 25%;
+  width: 53%;
+}
+.description {
+  top: 16%;
+}
+h4 {
+  padding: 8px 0 4px;
+  font-size: 14px;
+  color: rgb(90, 62, 62);
+  font-weight: 700;
+  font-family: sans-serif;
+  transform: perspective(300px) rotateX(20deg);
+}
+.detail h4{
+  font-size: 13px;
+  font-weight: 600;
+}
+.member h4 {
+  font-size: 11px;
+  color: #222;
+}
+.member > h4 {
+  font-size: 13px;
+  color: #222;
+  padding: 10px 0;
+}
+.member p {
+  padding: 5px 10px;
+}
+p {
+  font-size: 10px;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: 1.5;
+  padding: 1px;
+  color: #555;
+}
+.detail {
+  top:35%; 
+}
+.member {
+  top:58%;
+}
